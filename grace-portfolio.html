@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grace L. Lee | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #fbc2eb, #a18cd1);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      color: white;
+    }
+
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      background: rgba(255,255,255,0.9);
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 12px;
+      border-radius: 20px;
+      width: fit-content;
+      margin: auto;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #a18cd1;
+      font-weight: 600;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <!-- CHANGE THIS IMAGE -->
+    <img src="991b059d-20ad-4d85-9804-d49f61f90577.jfif"" alt="Profile" class="profile-pic">
+
+    <h1>Hi, I'm Grace 💜</h1>
+    <p>Computer Science Student | Aspiring Web Designer</p>
+  </header>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I'm an incoming 4th Year Computer Science student at University of Caloocan City - Congress Campus who enjoys designing aesthetic and user-friendly websites.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      <ul>
+        <li>HTML & CSS</li>
+        <li>Basic JavaScript</li>
+        <li>MySQL</li>
+        <li>PHP</li>
+        <li>Visual Studio Code</li>
+        <li>GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>Equipment Borrowing System</h3>
+      <p>A system built using C# and MySQL for managing borrowed equipment.</p>
+    </div>
+
+    <div class="card">
+      <h3>MIT App Inventor Alarm App</h3>
+      <p>A mobile app that allows users to set and manage alarms.</p>
+    </div>
+
+    <div class="card">
+  <h3>Cleanify Website 🧼</h3>
+  <p>
+    A website design project focused on cleanliness services. It features a modern layout,
+    user-friendly interface, and responsive design.
+  </p>
+  <p><strong>Tools:</strong> HTML, CSS</p>
+</div>
+
+<div class="card">
+  <h3>BloomBeads E-Commerce Website 🌸</h3>
+  <p>
+    An e-commerce website for selling handmade bead accessories. It features product listings,
+    clean design, and user-friendly layout for browsing items.
+  </p>
+  <p><strong>Tools:</strong> HTML, CSS, PHP</p>
+
+
+    <div class="card">
+      <h3>World:Reboot 🎮</h3>
+      <p>
+        A 2D game with character interactions, sound effects, and gameplay mechanics like jumping and collecting items.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: gracelozanolee@gmail.com</p>
+      <p>Facebook: https://www.facebook.com/grace.lozano.lee</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Grace L. Lee 💖</p>
+  </footer>
+
+</body>
+</html>
